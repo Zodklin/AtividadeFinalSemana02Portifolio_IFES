@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap');
+
+
+root{--magic-mint: #b5ffe1ff;
+--celadon: #93e5abff;
+--ocean-green: #65b891ff;
+--steel-teal: #4e878cff;
+--dark-green: #00241bff;
+}
+* {
+    margin:0;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    height: 120px;
+}
+/* CABEÇALHO */
+
+.corpo-principal {
+    background-color:rgb(41, 69, 72) ;
+}
+
+
+.kbçalho {
+    width: 100%;
+    background-image: linear-gradient(#4e878cff,#93e5abff,rgb(17, 36, 31));
+}
+
+.foto {
+    border-radius: 100%;
+    width: 180px;
+}
+
+.nome {
+    text-align: start;
+    height: 100px;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 32px;
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    position: relative;
+}
+
+.funcao {
+    text-align: start;
+    color: white;
+    font-size:16px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    position: relative;
+    bottom: 40px;
+    font-family: open sans;
+}
+
+/* CORPO */
+
+.main-pages {
+    margin: auto;
+    width: 80%;
+    font-family: caveat;
+    font-style: italic;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 5px green;
+}
+
+.main-pages-links {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;  
+    border-radius: 10px; 
+    padding: 15px 40px;
+}
+
+.main-pages a:hover {
+    background-color: #b5ffe1ff;
+    color: white;
+    text-shadow: 0 0 5px black ;
+}
+
+#principal {
+    background-color:#00241bff;
+    border-radius: 10px;
+    width: 250px;
+    height: 65px;
+    text-shadow: 0 0 5px blue;
+}
+
+.main-conteudo1 {
+    width: 50%;
+    height: 300px;
+    background-color:#00241bff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.main-conteudo1 p {
+    font-family: caveat;
+    font-weight: bolder;
+    font-size: 32px;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    color: white;
+    text-shadow: 0 0 5px green;
+}
+
+.main-conteudo1 h1 {
+    font-family: open sans;
+    font-size: 43px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    color:#b5ffe1ff ;
+    text-shadow: 0 0 5px black;
+}
+
+.main-conteudo1 h2 {
+    font-family: caveat;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+
+.main-botao {
+    background-color: #b5ffe1ff;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 15px 30px ;
+    position: relative;
+    border-radius: 10px;
+    font-family: open sans;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main-table1 a {
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+
+.main-conteudo2 {
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.main-foto-conteudo2 {
+    width: 100%;
+    height: 365px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 5px black;
+}
+
+.main-titulo {
+    height:100px;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 5px green;
+}
+
+.main-footer-principal {
+    width: 20%;
+    height: 50px;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.main-footer-principal a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+
+.main-footer-principal-texto {
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+/* RODAPÉ */
+
+.footer-fim {
+    background-color: white;
+    height: 200px;
+    border-top: 1px solid black;
+}
+
+.footer-ifes {
+    display: block;
+    margin: auto;
+    width: 120px
+}
+
+.footer-txt {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* QUEM SOU*/
+
+.main-quemsou {
+    font-family: open sans;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+
+.minibio {
+    width: 100%;
+    height: 190px;
+}
+
+#minibio-titulo {
+    position: relative;
+    bottom: 20px;
+    font-family: open sans;
+    font-size: 42px;
+    color: white;
+    text-shadow: 0 0 5px rgb(219, 1, 128);
+}
+
+.minibio-text {
+    position: relative;
+    font-size: 21px;
+    bottom: 20px;
+}
+
+.prog-tit {
+    font-family: open sans;
+    width: 15%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px blue;
+    padding: 5px 5px 5px 0px;
+}
+
+#habilidade-idioma {
+    position: relative;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(219, 1, 128);
+    padding: 10px 10px 10px 0px;
+    text-align: start;
+    font-size: 28px;
+}
+
+.main-progresso{
+    font-size: 25px;
+}
+
+.exp-prof {
+    height: 400px;
+    font-family: open sans; 
+    color: white;
+}
+
+#exp-prof-name {
+    height: 30px;
+    font-size: 22px;
+    text-shadow: 0 0 20px black;
+    font-weight: bolder;
+
+}
+
+#exp-prof-tit {
+    height: 40px;
+    font-size: 32px;
+    text-shadow: 0 0 5px red;
+}
+
+.exp-data {
+    width: 180px;
+}
+
+/* PROJETOS */
+
+.main-projetos {
+    position: relative;
+    font-family: open sans;
+    color: white;
+}
+
+.main-projetos h1{
+    text-shadow: 0 0 5px rgb(219, 1, 128);
+    font-size: 42px;
+}
+
+.main-projetos p {
+    text-shadow: 0 0 5px blue;
+    font-size: 20px;
+}
+
+.projetos-foto {
+    width: 40%;
+    height: 200px;
+}
+
+.projetos-texto {
+    position: relative;
+    font-family: open sans;
+    color: white;
+}
+
+.projetos-texto h2{
+    padding:0 0 0px 0 ;
+    text-shadow: 0 0 10px rgb(39, 9, 94);
+    font-size: 32px;
+}
+
+.projetos-texto p {
+    font-size: 16px;
+}
+
+.projeto-img {
+    width: 100%;
+}
+
+/* CONTATO */
+
+.main-contato-titulo {
+    position: relative;
+    font-family: open sans;
+    color: white;
+    padding: 20px 0 ;
+}
+
+.main-contato-titulo h1{
+    text-shadow: 0 0 5px rgb(219, 1, 128);
+    font-size: 42px;
+}
+
+.main-contato-titulo p {
+    text-shadow: 0 0 5px blue;
+    font-size: 20px;
+}
+
+.main-contato {
+    font-family: open sans;
+    color: white;
+}
+
+#select-assunto {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 5px black;
+}
+
+#txt-nome {
+    width: 291px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 5px black;
+}
+
+#txta-msg {
+    width: 300px;
+    height:100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+.contato-submit {
+    padding: 8px 22px 8px 22px;
+    color: black;
+    background-color: #b5ffe1ff;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+.linha-hr {
+    border: 1px solid rgb(12, 72, 14);
+    width: 80%;
+    margin: auto;
+}
+
+.txt-final {
+    width: 80%;
+    margin:auto;
+    font-family: open sans;
+    color: white;
+}
+.txt-final h2{
+    text-shadow: 0 0 10px black;
+}
+
+ol {
+    list-style-type: none;
+    position: relative;
+    padding-left: 0;
+}
+
+#linkedin {
+    color: rgb(183, 183, 255)
+    
+}

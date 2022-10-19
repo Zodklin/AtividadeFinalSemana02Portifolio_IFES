@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Atividade da semana 02</title>
+</head>
+
+<!--CABEÇALHO-->
+
+<body class="corpo-principal">
+    <header>
+        <table 1 cellspacing="0" class="kbçalho">
+            <thead>
+                <tr>
+                    <th rowspan="2"" id=" tabFoto"><img src="/img/eu.png" alt="FotoPerfil" class="foto"></th>
+                    <td class="nome">
+                        <h1>Guilherme Costa</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="funcao">
+                        <h2>&lt; Desing e Desenvolvedor Web &gt;</h2>
+                    </td>
+
+                </tr>
+            </thead>
+        </table>
+    </header><br><br>
+    <!--CORPO-->
+    <main class="main">
+        <table cellspacing="0" class="main-pages">
+            <tbody>
+                <tr>
+                    <td><a href=" index.html" class="main-pages-links">Principal</a>
+                    </td>
+
+                    <td><a href=" quemsou.html" class="main-pages-links">Quem
+                            Sou</a></td>
+
+                    <td><a href=" projetos.html" class="main-pages-links">Projetos</a></td>
+
+                    <td><a href="contato.html" class="main-pages-links" id="principal" style="color:white;">Contato</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="main-contato-titulo">
+            <tr>
+                <td>
+                    <h1>Entre em contato!</h1>
+                    <p>Preencha todos os campos do formulário e em até 48h lhe responderei!<br>
+                        Será um prazer lhe atender!</p>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" class="main-contato">
+            <form>
+                <tr>
+                    <td>
+                        <label for="assunto">Assunto</label><br>
+                        <select name="assunto" id="select-assunto" required>
+                            <option value="" selected disabled hidden>Selecione um Assunto...</option>
+                            <option value="P">Proposta</option>
+                            <option value="E">Entrevista</option>
+                            <option value="S">Solicitação</option>
+                            <option value="O">Orçamento</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contato-nome">Nome</label><br>
+                        <input type="text" name="contato-nome" id="txt-nome" placeholder="Nome Completo" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contato-email">E-mail</label><br>
+                        <input type="text" name="contato-email" id="txt-nome" placeholder="nome@email.com.br"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </td>
+                </tr>
+                <td>
+                    <label for="contato-tel">Telefone</label><br>
+                    <input type="tel" name="contato-tel" id="txt-nome" placeholder="(27) 99999-9999"
+                        pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required>
+                </td>
+                <tr>
+                    <td>
+                        <label for="contato-mensagem">Mensagem</label><br>
+                        <textarea name="contato-mensagem" id="txta-msg" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar" class="contato-submit">
+                    </td>
+                </tr>
+            </form>
+        </table><br>
+        <hr class="linha-hr"><br>
+        <section class="txt-final">
+            <h2 id="txtfim">Outras formas de contato:</h2>
+            <ol>
+                <li>Residente em Aracruz/ES</li>
+                <li><a href=mailto:<nowikiagentavery@sample.com?subject="link HTML" id="linkedin"></nowikiagentavery>
+                        guilherme.scosta2001@gmail.com</li></a>
+                <li>(27)99773-8128</li>
+                <li><a href="https://www.linkedin.com/in/guilherme-henrique-463079194/" target="_blank"
+                        id="linkedin">Linkedin</a></li>
+            </ol>
+        </section>
+        <footer class="footer-fim">
+            <br>
+            <p class="footer-txt">Copyrigth © 2022</p>
+            <a href="https://www.ifes.edu.br/" target="_blank"><img src="/img/ifes.png" alt="ifes.png" class="footer-ifes" align="center"></a>
+        </footer>
+</body>
+
+</html>
